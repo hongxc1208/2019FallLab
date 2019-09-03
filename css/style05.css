@@ -5,6 +5,7 @@ body{
 	padding:0;
 	overflow:auto;
 	height:auto;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -54,12 +55,14 @@ body{
 }
 
 .information h2{
+	font-family: 'Roboto Condensed', sans-serif;
 	position:absolute;
 	margin-top:-190px;
 	margin-left:60px;
 }
 
 .information h2{
+	font-family: 'Roboto Condensed', sans-serif;
 	color: yellow;
 	text-transform: uppercase;
 	background-color: black;
@@ -68,12 +71,14 @@ body{
 }
 
 .information h1{
+	font-family: 'Roboto Condensed', sans-serif;
 	position:relative;
 	margin-top:-150px;
 	margin-left:1000px;
 }
 
 .information h1{
+	font-family: 'Roboto Condensed', sans-serif;
 	position: absolute;
 	color: yellow;
 	text-transform: uppercase;
@@ -85,6 +90,7 @@ body{
 
 
 .number1{
+	font-family: 'Roboto Condensed', sans-serif;
 	text-decoration: none;
 	width:50px;
 	font-size: 55px;
@@ -99,6 +105,7 @@ body{
 
 
 .number2{
+	font-family: 'Roboto Condensed', sans-serif;
 	width:50px;
 	position:absolute;
 	top:260px;
@@ -115,6 +122,7 @@ body{
 }
 
 .number3{
+	font-family: 'Roboto Condensed', sans-serif;
 	width:50px;
 	position:absolute;
 	top:800px;
@@ -131,6 +139,7 @@ body{
 }
 
 .number4{
+	font-family: 'Roboto Condensed', sans-serif;
 	width:50px;
 	position:absolute;
 	top:1080px;
@@ -147,6 +156,7 @@ body{
 }
 
 .number5{
+	font-family: 'Roboto Condensed', sans-serif;
 	width:50px;
 	position:absolute;
 	top:8px;
@@ -169,6 +179,7 @@ body{
 }
 
 .introduction{
+	font-family: 'Roboto Condensed', sans-serif;
 	background-color: black;
 	color:white;
 	width:550px;
@@ -190,15 +201,18 @@ body{
 }
 
 .more h2{
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top:5px;
 	font-size: 50px;
 }
 
 .more p{
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top:-50px;
 }
 
 .more2{
+	font-family: 'Roboto Condensed', sans-serif;
 	position: absolute;
 	z-index: 1;
 	background-color: black;
@@ -211,22 +225,26 @@ body{
 	text-align: center;
 }
 .more2 h2{
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top:5px;
 	font-size: 50px;
 }
 
 .more2 p{
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-top:-50px;
 }
 
 
 a{
+	font-family: 'Roboto Condensed', sans-serif;
 	opacity:.5;
 	color:rgba(150, 150, 150,.5);
 	text-decoration: none;
 }
 
 a:hover{
+	font-family: 'Roboto Condensed', sans-serif;
 	color:red;
 	opacity: 1;
 }
