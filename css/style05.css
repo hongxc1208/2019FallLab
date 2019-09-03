@@ -188,6 +188,7 @@ body{
 }
 
 .more{
+	font-family: 'Roboto Condensed', sans-serif;
 	position: absolute;
 	z-index: 1;
 	background-color: black;

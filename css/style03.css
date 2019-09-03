@@ -69,6 +69,7 @@ body{
 
 
 .content{
+	font-family: 'Roboto Condensed', sans-serif;
 	padding: 20px;
 	box-sizing: border-box;
 	color:#fff;
@@ -161,6 +162,7 @@ body{
 }
 
 .text{
+	font-family: 'Roboto Condensed', sans-serif;
 	text-decoration: none;
 	transform:translateY(30px);
 	opacity:0;
@@ -227,6 +229,7 @@ body{
 }
 
 .explainer a{
+	font-family: 'Roboto Condensed', sans-serif;
 	text-decoration: none;
 }
 
