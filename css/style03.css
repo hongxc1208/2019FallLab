@@ -1,0 +1,231 @@
+body{
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+	background:#060c21;
+}
+
+
+.dog{
+	position:absolute;
+	display: block;
+	z-index: 5;
+	margin-top:-15rem;
+	margin-left: 1rem;
+
+}
+
+#dog{
+	max-width:80%;
+	height:auto;
+}
+
+
+
+.box{
+	position:relative;
+	width:300px;
+	height:400px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background:#060c21;
+
+}
+
+.box:before{
+	content:'';
+	position:absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom:-2px;
+	background:#fff;
+	z-index: -1;
+}
+
+.box:after{
+	content:'';
+	position:absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom:-2px;
+	background:#fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+
+.box:before,
+.box:after{
+	background:linear-gradient(235deg,#89ff00,
+		#060c21, #00bcd4);
+}
+
+
+.content{
+	padding: 20px;
+	box-sizing: border-box;
+	color:#fff;
+	text-align: center;
+}
+
+.content h1{
+	text-align: center center;
+	display: border-box;
+	padding:10px;
+}
+
+.content p{
+	text-align: left;
+	padding:10px;
+}
+
+
+.logo{
+	position:absolute;
+	max-height: 160%;
+	display: flex;
+	justify-content: center;
+}
+
+.all{
+	display: block;
+	position:absolute;
+	top:800px;
+	right:center;
+	width:800px;
+}
+
+.all{
+	display:flex;
+	perspective:10px;
+	transform: perspective(300px) rotateX(20deg);
+	will-change:perspective;
+	perspective-origin: center center;
+	transition:all 1.3s ease-out;
+	justify-content: center;
+	transform-style: preserve-3d;
+}
+
+.all:hover{
+	perspective: 1000px;
+	transition: all 1.3s ease-in;
+	transform: perspective(10000px) rotateX(0deg);
+}
+
+.all:hover .text{
+	opacity: 1;
+}
+
+.all:hover >div{
+	opacity:1;
+	transition-delay: 0s;
+}
+
+.all:hover .explainer{
+	opacity:0;
+}
+
+.left, .center, .right, .lefter, .righter{
+	width:200px;
+	height:150px;
+	transform-style: preserve-3d;
+	border-radius: 10px;
+	border:1px solid #fff;
+	box-shadow: 0 0 20px 5px rgba(100, 100, 255, 0.4);
+	opacity:0;
+	transition:all .3s ease;
+	transition-delay: .6s;
+	position:relative;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #58d;
+	cursor:pointer;
+	background-blend-mode: color-burn;
+}
+
+.left:hover, .center:hover, .right:hover,
+.lefter:hover, .righter:hover{
+	box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.6);
+	background-color: #ccf;
+}
+
+.text{
+	text-decoration: none;
+	transform:translateY(30px);
+	opacity:0;
+	transition:all .3s ease;
+	bottom: 0;
+	position:absolute;
+	will-change:transform;
+	color:#fff;
+	text-shadow:0 0 5px rgba(100,100,255,0.6);
+}
+
+.text a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.lefter{
+	transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+	background-image: url(../img/3Dscan.png);
+	background-size: 70%;
+}
+
+.left{
+	transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+	background-image: url(../img/3dmap.png);
+	background-size: 70%;
+}
+
+.center{
+	opacity: 1;
+	background-image: url(../img/social.png);
+	background-size: 70%;
+
+}
+
+.right{
+	transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+	background-image: url(../img/hololens.png);
+	background-size: 70%;
+}
+
+.righter{
+	transform: translateX(60px) translateZ(-55px) rotateY(10deg);
+	background-image: url(../img/snapchat.png);
+	background-size: 70%;
+}
+
+.explainer{
+	text-decoration: none;
+	font-weight: 300;
+	font-size:2rem;
+	color:#fff;
+	transition:all .6s ease;
+	width: 100%;
+	height:100%;
+	background-color: #303050;
+	border-radius: 10px;
+	text-shadow:0 0 10px rgba(255,255,255,0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.explainer a{
+	text-decoration: none;
+}
+
+
+
+
+
+

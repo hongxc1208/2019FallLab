@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Day Two</title>
+	<style>
+	*, ::before, ::after{
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	body{
+		margin:0;
+		min-height: 100vh;
+		overflow-x: hidden;
+		line-height: 1.5;
+		font:780 62.5% tahoma;
+		display: grid;
+		grid-template-columns: minmax(150px, auto) minmax(200px, auto) 
+		1fr;
+		grid-template-rows: 1fr;
+		color:#21213d;
+		background-image:url(img/hololens2.png);
+		background-position: 97% 14vh;
+		background-repeat: no-repeat;
+		background-size: auto-87vh;
+	}
+
+	.aside{
+		padding:1em;
+		padding-bottom: 4.5em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+    .trigger{
+    	position:relative;
+    	z-index: 5;
+    }
+
+
+
+    .social{
+    	font-family: tahoma;
+    	text-transform: uppercase;
+    	letter-spacing: 2px;
+    }
+
+    .social ul{
+    	list-style: none;
+    	margin:0;
+    	padding:0;
+    }
+
+    .social ul li{
+    	margin:0.25em;
+    	padding:1em;
+    	writing-mode: vertical-rl;
+    	transform: rotate(180deg);
+    	font-size: 1rem;
+    }
+
+    .social ul li a{
+    	text-decoration: none;
+    	color:#21213d;
+    }
+
+    .social ul li a:hover{
+    	color:#f00;
+    }
+
+    .title{
+    	position:relative;
+    	padding-bottom: 1.2em;
+    	height: 100%;
+    	text-transform: uppercase;
+    	white-space: nowrap;
+    	font-size:2.3rem;
+    	writing-mode: vertical-rl;
+    	transform:rotate(180deg);
+    	user-select: none;
+    	pointer-events: none;
+    	margin-top: -40px;
+    }
+
+    .title h1{
+    	position:relative;
+    	top:0.5em;
+    	margin:auto;
+    	font-family:tahoma;
+    }
+
+    .title h1 span{
+    	position:relative;
+    	top:-0.5em;
+    	left:0.55em;
+    	z-index: -1;
+    	display: block;
+    	width:auto;
+    	color:transparent;
+    	background-image:linear-gradient(-90deg, #f00, #c8305f);
+    	background-clip: text;
+    	-webkit-background-clip: text;
+    }
+
+    .content{
+    	position: relative;
+    	overflow:hidden;
+    	padding:3em;
+    	padding-bottom:0;
+    	display:flex;
+    	flex-direction:column;
+    	justify-content: space-between;
+    	align-items: flex-start;
+    	font-size:1rem;
+    }
+
+    .content .about{
+    	width:75%;
+    }
+
+    .content .about .sitename{
+    	font-family:tahoma;
+    	letter-spacing: 2px;
+    }
+
+    .content .about .sitename span{
+    	display: block;
+    }
+
+    .content .about .desc{
+    	list-style: none;
+    	padding:0;
+    	margin-bottom:1.5em;
+    }
+
+    .content .about button{
+    	padding:5px;
+    	border:0;
+    	border-radius: 0.35em;
+    	background-color: transparent;
+    	background-image: linear-gradient(-90deg, #f00, 
+    		#c8305f);
+    	cursor:pointer;
+    	transition: all 200ms cubic-bezi(0.57, 0.21, 0.69, 3.25);
+    	will-change:transform;
+    	color:black;
+    }
+
+    .content .about button:focus{
+    	outline: none;
+    }
+
+    .content .about button span{
+    	display:block;
+    	padding:1em 2em;
+    	width:100%;
+    	font-size:1rem;
+    	font-weight:600;
+    	border-radius:0.15em;
+    	background-color: white;
+    	color:#f00;
+    }
+
+    .content .about button:hover{
+    	transform:scale(0.95);
+    }
+
+    .content .about button:hover span{
+    	background-color: transparent;
+    	color:white;
+    }
+
+    .content .concpet{
+    	display:flex;
+    	width:100%;
+    }
+
+    .content .concept .num{
+    	position:relative;
+    	margin:0;
+    	font-family: tahoma;
+    	font-size:14rem;
+    	color:transparent;
+    	background-image: linear-gradient(-90deg, #f00, 
+    		#c8305f);
+    	-webkit-background-clip:text;
+    	background-clip:text;
+    	margin-top:-80px;
+    	margin-left:-10px;
+    }
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="aside">
+		<div class="trigger">
+			<br><br>
+			<img src="img/microsoft.png">
+		</div>
+		<div class ="social">
+			<ul>
+				<li><a href="index.html">Twitter</a></li>
+				<li><a href="Day02.html">Google</a></li>
+				<li><a href="Day03.html">Facebook</a></li>
+				<li><a href="Day05.html">Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class = "title">
+		<h1>MICROSOFT<span>. HOLOLENS 2</span></h1>
+	</div>
+
+	<div class="content">
+		<div class="about">
+			<h1 class="sitename">NEWS AND INFORMATION</h1>
+			<ul class="desc">
+				<li>- Reveled in 2019 Mobile World Congress event in Barcelona</li>
+				<li>- Updated Microsoft Augmented Reality headset</li>
+				<li>- Interact with virtual images in real world</li>
+				<li>- Pre-order been aviliable since February</li>
+				<li>- Price for kit is $3500</li>
+				<li>- Much lighter and more comfortable fit</li>
+				<li>- Aimed at enterprise opportunities</li>
+			</ul>
+			<button><span>Read more</span></button>
+		</div>
+		<div class="concept">
+			<h2> Starting delivering in September</h2>
+			<p class="num">2019</p>
+		</div>
+	</div>
+	<div class="menu">
+		<ul>
+			<li>About us</li>
+			<li>Business & Partners</li>
+			<li>Products and Services</li>
+			<li>Microsoft Stores</li>
+			<li>Technical Supports</li>
+		</ul>
+</body>
+</html>
