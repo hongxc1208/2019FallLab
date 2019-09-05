@@ -1,0 +1,101 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'Roboto Condensed', sans-serif;
+	background-color: rgb(125, 255, 231);
+	background-image: url(../img/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.column{
+	float:left;
+	flex:45%;
+	padding:80px;
+	width:40%;
+
+}
+
+.header{
+	text-align: center;
+}
+
+#ProjectDescription{
+	width: 500px;
+	text-align: center;
+	margin:auto;
+	font-size: 20px;
+	color:grey;
+}
+
+h1{
+	font-family: 'Renegado 3D', sans-serif;
+	font-size:220px;
+	letter-spacing: -40px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color:grey;
+
+}
+
+.header h2{
+	color:grey;
+	margin-top:70px;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.constrains{
+	text-align: center;
+}
+
+.constrains h4{
+	font-size:40px;
+	margin:0;
+	padding:0;
+	color:white;
+	font-family: 'Casanova Scotia', sans-serif;
+}
+
+.constrains p{
+	padding:30px;
+	margin:auto;
+	width:400px;
+	align-items: center;
+	color:grey;
+}
+
+.name h2{
+	margin-top:110px;
+}
+
+.image img{
+	width:60%;
+	padding-left: 100px;
+}
+
+.image h5{
+	text-transform: uppercase;
+	letter-spacing: 2.2px;
+	font-size: 20px;
+	color:white;
+	float:right;
+	writing-mode: vertical-rl;
+	padding-right:40px;
+}
+
+
+
+.Daliylink h2{
+	text-decoration: none;
+	text-transform: uppercase;
+	float:left;
+	display: block;
+	padding:25px 25px;
+	margin-left: -13px;
+}
+
+.Daliylink h2 a{
+	text-decoration: none;
+}
+
